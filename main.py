@@ -1,4 +1,6 @@
-def main(name):
-  print(f"Hello{name}")
+from greeting import greeting
 
-main("Jenifer")
+def main(name):
+  greeting("Jenifer")
+
+main()
