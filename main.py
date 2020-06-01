@@ -1,6 +1,6 @@
 from greeting import greeting
 
 def main(name):
-  greeting("Jenifer")
+  greeting(name)
 
-main()
+main(name)
